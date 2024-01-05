@@ -1,0 +1,44 @@
+Index (Login Credentials)
+Participant (9)
+    Index
+    OngoingCourseContinue
+        Course
+        FeedbackSubmit (No. of Answered Questions)
+        FeedbackView
+            Report
+    OngoingCourseStart
+    AppliedCourse
+    TrendingCourse
+Instructor (7)
+    Index
+    OngoingCourse
+        Course
+        Feedback
+            Report
+    UpcomingCourseSeatsFilled
+    UpcomingCourseVacant
+Admin (18)
+    Index (Login Credentials)
+    Home
+    Course
+        CourseApplication (Approval Status)
+        CourseFeedback
+        CreateFeedback
+            EnterQuestions
+            FeedbackFormPreview
+    Instructor
+        InstructorOngoingCourse
+            InstructorCourseFeedback
+        InstructorUpcomingCourse
+        InstructorCourseApplication (Approval Status)
+    Participant
+        ParticipantEnrolledCourse
+        ParticipantApplication (Approval Status)
+        ParticipantCourseFeedback
+    Report
+
+
+Total -> 35
+
+
+

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduReview360</title>
+    <!-- Boostrap Style -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- --------------------------------------------------Header-------------------------------------------------- -->
+    <header class="container-fluid d-flex justify-content-between">
+      <div class="brand d-flex">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="../img/logo.png" alt="logo" class="img-fluid"
+          /></a>
+        </div>
+        <div class="brand-name">
+          <p>EduReview360</p>
+        </div>
+      </div>
+      <div class="headprofile d-flex">
+        <img src="../img/participant.jfif" alt="participant-profile" />
+      </div>
+    </header>
+    <!-- --------------------------------------------------End of Header-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Breadcrumps-------------------------------------------------- -->
+    <nav class="breadcrump-pane container-fluid">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="index.html#applied-courses">Home</a>
+        </li>
+        <li class="breadcrumb-item active current-page">
+          Responsive Web Design
+        </li>
+      </ol>
+    </nav>
+    <!-- --------------------------------------------------End of Breadcrumps-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Main Area-------------------------------------------------- -->
+    <main>
+      <h1>Responsive Web Design</h1>
+      <!-- -------------------------Hero Section------------------------- -->
+      <div class="item d-flex container-fluid">
+        <!-- -------------------------Info Area------------------------- -->
+        <div class="item-info d-flex">
+          <!-- -------------------------Data Area------------------------- -->
+          <div class="course-info">
+            <p class="card-text"><b>Instructor:</b> Michael Garcia</p>
+            <p class="card-text"><b>Start Date:</b> 01/03/2024</p>
+            <p class="card-text"><b>Status:</b> Not Yet Approved</p>
+            <p class="rating card-text">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </p>
+          </div>
+          <!-- -------------------------Ring Area------------------------- -->
+          <div class="data-info d-flex">
+            <!-- -------------------------Ring1------------------------- -->
+            <div class="data d-flex flex-column">
+              <div class="progressbar">
+                <svg>
+                  <circle cx="80" cy="80" r="45" class="svg-circle"></circle>
+                </svg>
+                <span class="text-circle">10</span>
+              </div>
+              <div class="text">
+                <p>Participants Applied</p>
+              </div>
+            </div>
+            <!-- -------------------------Ring2------------------------- -->
+            <div class="data d-flex flex-column">
+              <div class="progressbar">
+                <svg>
+                  <circle cx="80" cy="80" r="45" class="svg-circle"></circle>
+                </svg>
+                <span class="text-circle">25</span>
+              </div>
+              <div class="text">
+                <p>Participants Enrolled</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------Info Image------------------------- -->
+        <div class="item-img">
+          <img src="../img/ResponsiveWebDesign.jpg" alt="" class="img-fluid" />
+        </div>
+      </div>
+
+      <div class="notify">
+        <p>We will notify you once the course is approved!</p>
+      </div>
+      <!-- -------------------------End of Hero Section------------------------- -->
+
+      <!-- -------------------------Trending Course Area------------------------- -->
+      <h2>Explore Other Trending Courses</h2>
+      <!-- -------------------------Cards------------------------- -->
+      <div class="courses row">
+        <!-- -------------------------Card1------------------------- -->
+        <div class="col">
+          <div class="course card">
+            <img
+              src="../img/React.jpg"
+              class="card-img-top"
+              alt="Course-Title"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="participant_trendingcourse.html" class="stretched-link"
+                  >React.js Fundamentals</a
+                >
+              </h3>
+              <p class="card-text"><b>Instructor:</b> Kevin King</p>
+              <p class="card-text"><b>Start Date:</b> 01/03/2024</p>
+              <p class="rating card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------Card2------------------------- -->
+        <div class="col">
+          <div class="course card">
+            <img
+              src="../img/Vue.jpg"
+              class="card-img-top"
+              alt="Course-Title"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="participant_trendingcourse.html" class="stretched-link"
+                  >Vue.js Essentials</a
+                >
+              </h3>
+              <p class="card-text"><b>Instructor:</b> Lisa Martinez</p>
+              <p class="card-text"><b>Start Date:</b> 15/03/2024</p>
+              <p class="rating card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------Card3------------------------- -->
+        <div class="col">
+          <div class="course card">
+            <img
+              src="../img/Angular.jpg"
+              class="card-img-top"
+              alt="Course-Title"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="participant_trendingcourse.html" class="stretched-link"
+                  >Angular Fundamentals</a
+                >
+              </h3>
+              <p class="card-text"><b>Instructor:</b> Matthew Miller</p>
+              <p class="card-text"><b>Start Date:</b> 01/02/2024</p>
+              <p class="rating card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------Card4------------------------- -->
+        <div class="col">
+          <div class="course card">
+            <img
+              src="../img/Node.jpg"
+              class="card-img-top"
+              alt="Course-Title"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="participant_trendingcourse.html" class="stretched-link"
+                  >Node.js Basics</a
+                >
+              </h3>
+              <p class="card-text"><b>Instructor:</b> Olivia Nelson</p>
+              <p class="card-text"><b>Start Date:</b> 15/02/2024</p>
+              <p class="rating card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------Card5------------------------- -->
+        <div class="col">
+          <div class="course card">
+            <img
+              src="../img/Rest.jpg"
+              class="card-img-top"
+              alt="Course-Title"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="participant_trendingcourse.html" class="stretched-link"
+                  >RESTful APIs</a
+                >
+              </h3>
+              <p class="card-text"><b>Instructor:</b> Benjamin Parker</p>
+              <p class="card-text"><b>Start Date:</b> 01/03/2024</p>
+              <p class="rating card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------Card6------------------------- -->
+        <div class="col">
+          <div class="course card">
+            <img
+              src="../img/MongoDB.jpg"
+              class="card-img-top"
+              alt="Course-Title"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="participant_trendingcourse.html" class="stretched-link"
+                  >MongoDB Basics</a
+                >
+              </h3>
+              <p class="card-text"><b>Instructor:</b> Emily Roberts</p>
+              <p class="card-text"><b>Start Date:</b> 15/03/2024</p>
+              <p class="rating card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------Card7------------------------- -->
+        <div class="col">
+          <div class="course card">
+            <img
+              src="../img/Express.jpg"
+              class="card-img-top"
+              alt="Course-Title"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="participant_trendingcourse.html" class="stretched-link"
+                  >Express.js Essentials</a
+                >
+              </h3>
+              <p class="card-text"><b>Instructor:</b> Samuel Rodriguez</p>
+              <p class="card-text"><b>Start Date:</b> 01/04/2024</p>
+              <p class="rating card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------Card8------------------------- -->
+        <div class="col">
+          <div class="course card">
+            <img
+              src="../img/TestingDebugging.png"
+              class="card-img-top"
+              alt="Course-Title"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="participant_trendingcourse.html" class="stretched-link"
+                  >Testing and Debugging</a
+                >
+              </h3>
+              <p class="card-text"><b>Instructor:</b> Jennifer Smith</p>
+              <p class="card-text"><b>Start Date:</b> 15/04/2024</p>
+              <p class="rating card-text">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------End of Trending Course Area------------------------- -->
+    </main>
+    <!-- --------------------------------------------------End of Main Area-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Footer-------------------------------------------------- -->
+    <footer class="container-fluid d-flex">
+      <p>&copy; 2023 - EduReview360 - All Rights Reserved</p>
+    </footer>
+    <!-- --------------------------------------------------End of Footer-------------------------------------------------- -->
+
+    <!-- Bootrap Script -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

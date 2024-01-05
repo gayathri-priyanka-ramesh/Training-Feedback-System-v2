@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduReview360</title>
+    <!-- Boostrap Style -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- --------------------------------------------------Header-------------------------------------------------- -->
+
+    <header class="container-fluid d-flex justify-content-between">
+      <div class="brand d-flex">
+        <div class="logo">
+          <a href="admin_home.html"
+            ><img src="../img/logo.png" alt="logo" class="img-fluid"
+          /></a>
+        </div>
+        <div class="brand-name">
+          <p>EduReview360</p>
+        </div>
+      </div>
+      <div class="headprofile d-flex">
+        <img src="../img/Admin.jpg" alt="admin-profile" class="img-fluid" />
+      </div>
+    </header>
+    <!-- --------------------------------------------------End of Header-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Breadcrumps-------------------------------------------------- -->
+    <nav class="breadcrump-pane container-fluid">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="admin_home.html#instructors-list">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="admin_instructor.html#ongoing-courses">Maria Campbell</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="admin_instructorongoincourse.html#feedback">Git</a>
+        </li>
+        <li class="breadcrumb-item active current-page">Feedback</li>
+      </ol>
+    </nav>
+    <!-- --------------------------------------------------End of Breadcrumps-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Main Area-------------------------------------------------- -->
+    <main>
+      <h1>Git Version Control</h1>
+      <h2>Module 1 Feedback</h2>
+      <!-- -------------------------Table Area------------------------- -->
+      <div class="scroll-container container-fluid">
+        <table class="scroll-table feedback-table table-responsive">
+          <!-- -------------------------Table Head------------------------- -->
+          <thead>
+            <tr>
+              <td style="grid-row: 1/3">Name</td>
+              <td style="grid-row: 1/3">Date</td>
+              <td style="grid-column: 3/7">Course Rating</td>
+              <td style="grid-column: 7/11">Training Rating</td>
+              <td style="grid-row: 1/3; grid-column: 11/12">Comments</td>
+              <td style="grid-row: 1/3; grid-column: 12/13">
+                Instructor Response
+              </td>
+              <td style="grid-column: 3/4">Content</td>
+              <td>Resources</td>
+              <td>Organization</td>
+              <td>Facilities</td>
+              <td style="grid-column: 7/8">Knowledge</td>
+              <td>Explanation</td>
+              <td>Discussions</td>
+              <td>Environment</td>
+            </tr>
+          </thead>
+          <!-- -------------------------Table Body------------------------- -->
+          <tbody>
+            <!-- -------------------------Row1------------------------- -->
+            <tr>
+              <td>Maria White</td>
+              <td>05/10/2024</td>
+              <td>Very Satisfied</td>
+              <td>Moderately Effective</td>
+              <td>Moderately Organized</td>
+              <td>Poor</td>
+              <td>Excellent</td>
+              <td>Clear</td>
+              <td>Dissatisfied</td>
+              <td>Encouraging</td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                voluptatum? Officiis error aspernatur molestias dolor? Eius,
+                aliquam ut natus adipisci fuga eum sed quidem asperiores nemo
+                possimus unde, labore veritatis.
+              </td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                similique quo aperiam architecto culpa incidunt voluptatibus
+                fugiat tempore unde reiciendis hic ab, reprehenderit obcaecati,
+                distinctio vel ullam perspiciatis eius nam?
+              </td>
+            </tr>
+            <!-- -------------------------Row2------------------------- -->
+            <tr>
+              <td>Jonathan Turner</td>
+              <td>05/10/2024</td>
+              <td>Dissatisfied</td>
+              <td>Moderately Effective</td>
+              <td>Very Satisfied</td>
+              <td>Clear</td>
+              <td>Excellent</td>
+              <td>Moderately Organized</td>
+              <td>Poor</td>
+              <td>Encouraging</td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                voluptatum? Officiis error aspernatur molestias dolor? Eius,
+                aliquam ut natus adipisci fuga eum sed quidem asperiores nemo
+                possimus unde, labore veritatis.
+              </td>
+              <td>Not yet responded</td>
+            </tr>
+            <!-- -------------------------Row3------------------------- -->
+            <tr>
+              <td>Rachel Walker</td>
+              <td>10/10/2024</td>
+              <td>Clear</td>
+              <td>Poor</td>
+              <td>Encouraging</td>
+              <td>Moderately Organized</td>
+              <td>Dissatisfied</td>
+              <td>Moderately Effective</td>
+              <td>Excellent</td>
+              <td>Very Satisfied</td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                voluptatum? Officiis error aspernatur molestias dolor? Eius,
+                aliquam ut natus adipisci fuga eum sed quidem asperiores nemo
+                possimus unde, labore veritatis.
+              </td>
+              <td>Not yet responded</td>
+            </tr>
+            <!-- -------------------------Row4------------------------- -->
+            <tr>
+              <td>John Baker</td>
+              <td>12/10/2024</td>
+              <td>Excellent</td>
+              <td>Very Satisfied</td>
+              <td>Dissatisfied</td>
+              <td>Moderately Organized</td>
+              <td>Clear</td>
+              <td>Poor</td>
+              <td>Moderately Effective</td>
+              <td>Encouraging</td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                voluptatum? Officiis error aspernatur molestias dolor? Eius,
+                aliquam ut natus adipisci fuga eum sed quidem asperiores nemo
+                possimus unde, labore veritatis.
+              </td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                similique quo aperiam architecto culpa incidunt voluptatibus
+                fugiat tempore unde reiciendis hic ab, reprehenderit obcaecati,
+                distinctio vel ullam perspiciatis eius nam?
+              </td>
+            </tr>
+            <!-- -------------------------Row5------------------------- -->
+            <tr>
+              <td>Samuel Thomas</td>
+              <td>12/10/2024</td>
+              <td>Moderately Effective</td>
+              <td>Very Satisfied</td>
+              <td>Clear</td>
+              <td>Dissatisfied</td>
+              <td>Poor</td>
+              <td>Encouraging</td>
+              <td>Excellent</td>
+              <td>Moderately Organized</td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                voluptatum? Officiis error aspernatur molestias dolor? Eius,
+                aliquam ut natus adipisci fuga eum sed quidem asperiores nemo
+                possimus unde, labore veritatis.
+              </td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                similique quo aperiam architecto culpa incidunt voluptatibus
+                fugiat tempore unde reiciendis hic ab, reprehenderit obcaecati,
+                distinctio vel ullam perspiciatis eius nam?
+              </td>
+            </tr>
+            <!-- -------------------------Row6------------------------- -->
+            <tr>
+              <td>David Foster</td>
+              <td>13/10/2024</td>
+              <td>Very Satisfied</td>
+              <td>Clear</td>
+              <td>Moderately Organized</td>
+              <td>Dissatisfied</td>
+              <td>Poor</td>
+              <td>Moderately Effective</td>
+              <td>Encouraging</td>
+              <td>Excellent</td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                voluptatum? Officiis error aspernatur molestias dolor? Eius,
+                aliquam ut natus adipisci fuga eum sed quidem asperiores nemo
+                possimus unde, labore veritatis.
+              </td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                similique quo aperiam architecto culpa incidunt voluptatibus
+                fugiat tempore unde reiciendis hic ab, reprehenderit obcaecati,
+                distinctio vel ullam perspiciatis eius nam?
+              </td>
+            </tr>
+            <!-- -------------------------Row7------------------------- -->
+            <tr>
+              <td>Emily Carter</td>
+              <td>13/10/2024</td>
+              <td>Very Satisfied</td>
+              <td>Clear</td>
+              <td>Moderately Organized</td>
+              <td>Dissatisfied</td>
+              <td>Poor</td>
+              <td>Moderately Effective</td>
+              <td>Encouraging</td>
+              <td>Excellent</td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                voluptatum? Officiis error aspernatur molestias dolor? Eius,
+                aliquam ut natus adipisci fuga eum sed quidem asperiores nemo
+                possimus unde, labore veritatis.
+              </td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                similique quo aperiam architecto culpa incidunt voluptatibus
+                fugiat tempore unde reiciendis hic ab, reprehenderit obcaecati,
+                distinctio vel ullam perspiciatis eius nam?
+              </td>
+            </tr>
+            <!-- -------------------------Row8------------------------- -->
+            <tr>
+              <td>Lisa Smith</td>
+              <td>15/10/2024</td>
+              <td>Encouraging</td>
+              <td>Very Satisfied</td>
+              <td>Clear</td>
+              <td>Moderately Effective</td>
+              <td>Moderately Organized</td>
+              <td>Dissatisfied</td>
+              <td>Poor</td>
+              <td>Excellent</td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                voluptatum? Officiis error aspernatur molestias dolor? Eius,
+                aliquam ut natus adipisci fuga eum sed quidem asperiores nemo
+                possimus unde, labore veritatis.
+              </td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                similique quo aperiam architecto culpa incidunt voluptatibus
+                fugiat tempore unde reiciendis hic ab, reprehenderit obcaecati,
+                distinctio vel ullam perspiciatis eius nam?
+              </td>
+            </tr>
+            <!-- -------------------------Row9------------------------- -->
+            <tr>
+              <td>Kevin Young</td>
+              <td>20/10/2024</td>
+              <td>Dissatisfied</td>
+              <td>Excellent</td>
+              <td>Moderately Effective</td>
+              <td>Very Satisfied</td>
+              <td>Clear</td>
+              <td>Moderately Organized</td>
+              <td>Poor</td>
+              <td>Encouraging</td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                voluptatum? Officiis error aspernatur molestias dolor? Eius,
+                aliquam ut natus adipisci fuga eum sed quidem asperiores nemo
+                possimus unde, labore veritatis.
+              </td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                similique quo aperiam architecto culpa incidunt voluptatibus
+                fugiat tempore unde reiciendis hic ab, reprehenderit obcaecati,
+                distinctio vel ullam perspiciatis eius nam?
+              </td>
+            </tr>
+            <!-- -------------------------Row10------------------------- -->
+            <tr>
+              <td>Jessica Evans</td>
+              <td>25/10/2024</td>
+              <td>Very Satisfied</td>
+              <td>Clear</td>
+              <td>Moderately Organized</td>
+              <td>Dissatisfied</td>
+              <td>Poor</td>
+              <td>Moderately Effective</td>
+              <td>Encouraging</td>
+              <td>Excellent</td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                voluptatum? Officiis error aspernatur molestias dolor? Eius,
+                aliquam ut natus adipisci fuga eum sed quidem asperiores nemo
+                possimus unde, labore veritatis.
+              </td>
+              <td>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                similique quo aperiam architecto culpa incidunt voluptatibus
+                fugiat tempore unde reiciendis hic ab, reprehenderit obcaecati,
+                distinctio vel ullam perspiciatis eius nam?
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- -------------------------End of Table Area -->
+
+      <!-- -------------------------Report Generation------------------------- -->
+      <div class="button-group d-flex">
+        <div class="button">
+          <a href="admin_report.html" class="btn nav-item">Generate Report</a>
+        </div>
+      </div>
+    </main>
+    <!-- --------------------------------------------------End of Main Area-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Footer-------------------------------------------------- -->
+    <footer class="container-fluid d-flex">
+      <p>&copy; 2023 - EduReview360 - All Rights Reserved</p>
+    </footer>
+    <!-- --------------------------------------------------End of Footer-------------------------------------------------- -->
+
+    <!-- Bootrap Script -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

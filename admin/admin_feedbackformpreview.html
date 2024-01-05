@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduReview360</title>
+    <!-- Boostrap Style -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- --------------------------------------------------Header-------------------------------------------------- -->
+    <header class="container-fluid d-flex justify-content-between">
+      <div class="brand d-flex">
+        <div class="logo">
+          <a href="admin_home.html"
+            ><img src="../img/logo.png" alt="logo" class="img-fluid"
+          /></a>
+        </div>
+        <div class="brand-name">
+          <p>EduReview360</p>
+        </div>
+      </div>
+      <div class="headprofile d-flex">
+        <img src="../img/Admin.jpg" alt="admin-profile" class="img-fluid" />
+      </div>
+    </header>
+    <!-- --------------------------------------------------End of Header-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Breadcrumps-------------------------------------------------- -->
+    <nav class="breadcrump-pane container-fluid">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="admin_home.html#courses-list">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="admin_course.html">HTML</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="admin_editfeedback.html">Edit Feedback</a>
+        </li>
+        <li class="breadcrumb-item active current-page">Form Preview</li>
+      </ol>
+    </nav>
+    <!-- --------------------------------------------------End of Breadcrumps-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Main Area-------------------------------------------------- -->
+    <main>
+      <h1>HTML Essentials</h1>
+      <h2>Feedback Form Preview</h2>
+      <!-- -------------------------Form Area------------------------- -->
+      <div class="form">
+        <form action="" class="feedback-form" method="post">
+          <div class="checkbox-switch form-check form-switch">
+            <input type="checkbox" class="form-check-input" id="anonymous" />
+            <label class="form-check-label" for="anonymous"
+              >Set as Anonymous</label
+            >
+          </div>
+          <!-- -------------------------Fieldset1------------------------- -->
+          <fieldset>
+            <legend class="float-none w-auto p-2 mx-1">
+              Training Evaluation
+            </legend>
+            <!-- -------------------------Ques1------------------------- -->
+            <label for="content" class="text-label form-label">
+              How satisfied were you with the content of the training program?
+            </label>
+            <div class="options d-flex">
+              <input
+                type="radio"
+                name="content"
+                id="content-1"
+                value="1"
+                required
+              />
+              <label for="content-1" data="1"></label>
+              <input
+                type="radio"
+                name="content"
+                id="content-2"
+                value="2"
+                required
+              />
+              <label for="content-2" data="2"></label>
+              <input
+                type="radio"
+                name="content"
+                id="content-3"
+                value="3"
+                required
+              />
+              <label for="content-3" data="3"></label>
+              <input
+                type="radio"
+                name="content"
+                id="content-4"
+                value="4"
+                required
+              />
+              <label for="content-4" data="4"></label>
+              <input
+                type="radio"
+                name="content"
+                id="content-5"
+                value="5"
+                required
+              />
+              <label for="content-5" data="5"></label>
+              <div class="option-position"></div>
+            </div>
+            <!-- -------------------------Ques2------------------------- -->
+            <label for="resources" class="text-label form-label">
+              Rate the clarity of the training materials and resources provided.
+            </label>
+            <div class="options d-flex">
+              <input
+                type="radio"
+                name="resources"
+                id="resources-1"
+                value="1"
+                required
+              />
+              <label for="resources-1" data="1"></label>
+              <input
+                type="radio"
+                name="resources"
+                id="resources-2"
+                value="2"
+                required
+              />
+              <label for="resources-2" data="2"></label>
+              <input
+                type="radio"
+                name="resources"
+                id="resources-3"
+                value="3"
+                required
+              />
+              <label for="resources-3" data="3"></label>
+              <input
+                type="radio"
+                name="resources"
+                id="resources-4"
+                value="4"
+                required
+              />
+              <label for="resources-4" data="4"></label>
+              <input
+                type="radio"
+                name="resources"
+                id="resources-5"
+                value="5"
+                required
+              />
+              <label for="resources-5" data="5"></label>
+              <div class="option-position"></div>
+            </div>
+            <!-- -------------------------Ques3------------------------- -->
+            <label for="organization" class="text-label form-label">
+              Rate the organization and structure of the training program.
+            </label>
+            <div class="options d-flex">
+              <input
+                type="radio"
+                name="organization"
+                id="organization-1"
+                value="1"
+                required
+              />
+              <label for="organization-1" data="1"></label>
+              <input
+                type="radio"
+                name="organization"
+                id="organization-2"
+                value="2"
+                required
+              />
+              <label for="organization-2" data="2"></label>
+              <input
+                type="radio"
+                name="organization"
+                id="organization-3"
+                value="3"
+                required
+              />
+              <label for="organization-3" data="3"></label>
+              <input
+                type="radio"
+                name="organization"
+                id="organization-4"
+                value="4"
+                required
+              />
+              <label for="organization-4" data="4"></label>
+              <input
+                type="radio"
+                name="organization"
+                id="organization-5"
+                value="5"
+                required
+              />
+              <label for="organization-5" data="5"></label>
+              <div class="option-position"></div>
+            </div>
+            <!-- -------------------------Ques4------------------------- -->
+            <label for="facilities" class="text-label form-label">
+              Please rate your satisfaction with the training facilities and
+              technology.
+            </label>
+            <div class="options d-flex">
+              <input
+                type="radio"
+                name="facilities"
+                id="facilities-1"
+                value="1"
+                required
+              />
+              <label for="facilities-1" data="1"></label>
+              <input
+                type="radio"
+                name="facilities"
+                id="facilities-2"
+                value="2"
+                required
+              />
+              <label for="facilities-2" data="2"></label>
+              <input
+                type="radio"
+                name="facilities"
+                id="facilities-3"
+                value="3"
+                required
+              />
+              <label for="facilities-3" data="3"></label>
+              <input
+                type="radio"
+                name="facilities"
+                id="facilities-4"
+                value="4"
+                required
+              />
+              <label for="facilities-4" data="4"></label>
+              <input
+                type="radio"
+                name="facilities"
+                id="facilities-5"
+                value="5"
+                required
+              />
+              <label for="facilities-5" data="5"></label>
+              <div class="option-position"></div>
+            </div>
+          </fieldset>
+          <!-- -------------------------Fieldset2------------------------- -->
+          <fieldset>
+            <legend class="float-none w-auto p-2 mx-1">
+              Instructor Evaluation
+            </legend>
+            <!-- -------------------------Ques1------------------------- -->
+            <label for="knowledge" class="text-label form-label">
+              How would you rate the instructor's knowledge of the subject
+              matter?
+            </label>
+            <div class="options d-flex">
+              <input
+                type="radio"
+                name="knowledge"
+                id="knowledge-1"
+                value="1"
+                required
+              />
+              <label for="knowledge-1" data="1"></label>
+              <input
+                type="radio"
+                name="knowledge"
+                id="knowledge-2"
+                value="2"
+                required
+              />
+              <label for="knowledge-2" data="2"></label>
+              <input
+                type="radio"
+                name="knowledge"
+                id="knowledge-3"
+                value="3"
+                required
+              />
+              <label for="knowledge-3" data="3"></label>
+              <input
+                type="radio"
+                name="knowledge"
+                id="knowledge-4"
+                value="4"
+                required
+              />
+              <label for="knowledge-4" data="4"></label>
+              <input
+                type="radio"
+                name="knowledge"
+                id="knowledge-5"
+                value="5"
+                required
+              />
+              <label for="knowledge-5" data="5"></label>
+              <div class="option-position"></div>
+            </div>
+            <!-- -------------------------Ques2------------------------- -->
+            <label for="explanation" class="text-label form-label">
+              Rate the instructor's ability to effectively communicate and
+              explain complex concepts.
+            </label>
+            <div class="options d-flex">
+              <input
+                type="radio"
+                name="explanation"
+                id="explanation-1"
+                value="1"
+                required
+              />
+              <label for="explanation-1" data="1"></label>
+              <input
+                type="radio"
+                name="explanation"
+                id="explanation-2"
+                value="2"
+                required
+              />
+              <label for="explanation-2" data="2"></label>
+              <input
+                type="radio"
+                name="explanation"
+                id="explanation-3"
+                value="3"
+                required
+              />
+              <label for="explanation-3" data="3"></label>
+              <input
+                type="radio"
+                name="explanation"
+                id="explanation-4"
+                value="4"
+                required
+              />
+              <label for="explanation-4" data="4"></label>
+              <input
+                type="radio"
+                name="explanation"
+                id="explanation-5"
+                value="5"
+                required
+              />
+              <label for="explanation-5" data="5"></label>
+              <div class="option-position"></div>
+            </div>
+            <!-- -------------------------Ques3------------------------- -->
+            <label for="discusssion" class="text-label form-label">
+              How well did the instructor encourage questions and facilitate
+              class discussions?
+            </label>
+            <div class="options d-flex">
+              <input
+                type="radio"
+                name="discusssion"
+                id="discusssion-1"
+                value="1"
+                required
+              />
+              <label for="discusssion-1" data="1"></label>
+              <input
+                type="radio"
+                name="discusssion"
+                id="discusssion-2"
+                value="2"
+                required
+              />
+              <label for="discusssion-2" data="2"></label>
+              <input
+                type="radio"
+                name="discusssion"
+                id="discusssion-3"
+                value="3"
+                required
+              />
+              <label for="discusssion-3" data="3"></label>
+              <input
+                type="radio"
+                name="discusssion"
+                id="discusssion-4"
+                value="4"
+                required
+              />
+              <label for="discusssion-4" data="4"></label>
+              <input
+                type="radio"
+                name="discusssion"
+                id="discusssion-5"
+                value="5"
+                required
+              />
+              <label for="discusssion-5" data="5"></label>
+              <div class="option-position"></div>
+            </div>
+            <!-- -------------------------Ques4------------------------- -->
+            <label for="environment" class="text-label form-label">
+              Rate the instructor's ability to create a positive and engaging
+              learning environment.
+            </label>
+            <div class="options d-flex">
+              <input
+                type="radio"
+                name="environment"
+                id="environment-1"
+                value="1"
+                required
+              />
+              <label for="environment-1" data="1"></label>
+              <input
+                type="radio"
+                name="environment"
+                id="environment-2"
+                value="2"
+                required
+              />
+              <label for="environment-2" data="2"></label>
+              <input
+                type="radio"
+                name="environment"
+                id="environment-3"
+                value="3"
+                required
+              />
+              <label for="environment-3" data="3"></label>
+              <input
+                type="radio"
+                name="environment"
+                id="environment-4"
+                value="4"
+                required
+              />
+              <label for="environment-4" data="4"></label>
+              <input
+                type="radio"
+                name="environment"
+                id="environment-5"
+                value="5"
+                required
+              />
+              <label for="environment-5" data="5"></label>
+              <div class="option-position"></div>
+            </div>
+          </fieldset>
+          <!-- -------------------------Fieldset3------------------------- -->
+          <fieldset>
+            <legend class="float-none w-auto p-2 mx-1">
+              Additional Comment
+            </legend>
+            <label for="rating" class="text-label form-label">
+              Please share any additional comments or suggestions about the
+              training program or instructor. Your feedback is valuable in
+              helping us improve.
+            </label>
+            <textarea name="rating" id="rating" cols="30" rows="10"></textarea>
+          </fieldset>
+          <!-- -------------------------Edit or Upload------------------------- -->
+          <div class="button-group d-flex">
+            <div class="button">
+              <button type="submit" class="btn nav-item">
+                <a href="admin_editfeedback.html">Edit</a>
+              </button>
+            </div>
+            <div class="button">
+              <button type="button" class="btn nav-item" id="questionSaveDraft">
+                Save Draft
+              </button>
+            </div>
+            <div class="button">
+              <button type="button" class="btn nav-item" id="questionUpload">
+                Upload
+              </button>
+            </div>
+          </div>
+          <!-- -------------------------Save Draft Modal------------------------- -->
+          <div id="submit-result" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <p id="modalMessage"></p>
+                  <div class="button-group d-flex">
+                    <div class="button">
+                      <button
+                        type="button"
+                        class="btn nav-item"
+                        id="modalOkBtn"
+                      >
+                        View Course
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- -------------------------Upload Confirmation Modal------------------------- -->
+          <div id="upload-modal" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <p id="modalMessage">
+                    Are you sure to upload the Feedback Form? It cannot be
+                    editted further
+                  </p>
+                  <div class="button-group d-flex">
+                    <div class="button">
+                      <button
+                        type="button"
+                        class="btn nav-item"
+                        id="upload-modalOkBtn"
+                      >
+                        Upload & View Course
+                      </button>
+                    </div>
+                    <div class="button">
+                      <button
+                        type="button"
+                        class="btn nav-item"
+                        id="upload-modalCancelBtn"
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- -------------------------End of Form Area------------------------- -->
+    </main>
+    <!-- --------------------------------------------------End of Main Area-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Footer-------------------------------------------------- -->
+    <footer class="container-fluid d-flex">
+      <p>&copy; 2023 - EduReview360 - All Rights Reserved</p>
+    </footer>
+    <!-- --------------------------------------------------End of Footer-------------------------------------------------- -->
+
+    <!-- Bootrap Script -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- jQuery Script -->
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../js/admin_feedbackformpreview.js"></script>
+  </body>
+</html>

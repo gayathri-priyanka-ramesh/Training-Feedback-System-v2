@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduReview360</title>
+    <!-- Bootstrap Style -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <!-- Data Table Style -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css"
+    />
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- --------------------------------------------------Header-------------------------------------------------- -->
+    <header class="container-fluid d-flex justify-content-between">
+      <div class="brand d-flex">
+        <div class="logo">
+          <a href="admin_home.html"
+            ><img src="../img/logo.png" alt="logo" class="img-fluid"
+          /></a>
+        </div>
+        <div class="brand-name">
+          <p>EduReview360</p>
+        </div>
+      </div>
+      <div class="headprofile d-flex">
+        <img src="../img/Admin.jpg" alt="admin-profile" class="img-fluid" />
+      </div>
+    </header>
+    <!-- --------------------------------------------------End of Header-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Breadcrumps-------------------------------------------------- -->
+    <nav class="breadcrump-pane container-fluid">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="admin_home.html#instructors-list">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="./admin_instructor.html#upcoming-courses">Maria Campbell</a>
+        </li>
+        <li class="breadcrumb-item active current-page">JavaScript</li>
+      </ol>
+    </nav>
+    <!-- --------------------------------------------------End of Breadcrumps-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Main Area-------------------------------------------------- -->
+    <main>
+      <h1>JavaScript Fundamentals</h1>
+      <!-- -------------------------Hero Section------------------------- -->
+      <div class="item d-flex container-fluid">
+        <!-- -------------------------Info Area------------------------- -->
+        <div class="item-info d-flex">
+          <!-- -------------------------Data Area------------------------- -->
+          <div class="course-info">
+            <p class="card-text"><b>Start Date:</b> 10/03/2024</p>
+          </div>
+          <!-- -------------------------Ring Area------------------------- -->
+          <div class="data-info d-flex">
+            <!-- -------------------------Ring1------------------------- -->
+            <a href="#course-applications">
+              <div class="data d-flex flex-column">
+                <div class="progressbar">
+                  <svg>
+                    <circle cx="80" cy="80" r="45" class="svg-circle"></circle>
+                  </svg>
+                  <span class="text-circle">10</span>
+                </div>
+                <div class="text">
+                  <p>Applicants</p>
+                </div>
+              </div>
+            </a>
+            <!-- -------------------------Ring2------------------------- -->
+            <div class="data d-flex flex-column">
+              <div class="progressbar">
+                <svg>
+                  <circle cx="80" cy="80" r="45" class="svg-circle"></circle>
+                </svg>
+                <span class="text-circle">25</span>
+              </div>
+              <div class="text">
+                <p>Enrollments</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------Info Image------------------------- -->
+        <div class="item-img">
+          <img src="../img/JavaScript.jpg" alt="course" class="img-fluid" />
+        </div>
+      </div>
+      <!-- -------------------------End of Hero Section------------------------- -->
+
+      <!-- -------------------------Applicant Details------------------------- -->
+      <h2 id="course-applications">Applicants</h2>
+      <!-- -------------------------Table Area------------------------- -->
+      <div class="scroll-container table-container container-fluid">
+        <table
+          class="scroll-table applicant-table table-responsive"
+          id="applicantTable"
+        >
+          <!-- -------------------------Table Head------------------------- -->
+          <thead>
+            <tr>
+              <td>SNo.</td>
+              <td>Name</td>
+              <td>Date</td>
+              <td>Application</td>
+              <td>Details</td>
+            </tr>
+          </thead>
+          <!-- -------------------------Table Body------------------------- -->
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Amanda Scott</td>
+              <td>01/11/2024</td>
+              <td>
+                <a href="admin_instructorcourseapplication.html"
+                  >View Application</a
+                >
+              </td>
+              <td><a href="admin_participant.html">View Details</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jonathan Turner</td>
+              <td>03/03/2024</td>
+              <td>
+                <a href="admin_instructorcourseapplication.html"
+                  >View Application</a
+                >
+              </td>
+              <td><a href="admin_participant.html">View Details</a></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Maria White</td>
+              <td>05/11/2024</td>
+              <td>
+                <a href="admin_instructorcourseapplication.html"
+                  >View Application</a
+                >
+              </td>
+              <td><a href="admin_participant.html">View Details</a></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>James Wilson</td>
+              <td>08/11/2024</td>
+              <td>
+                <a href="admin_instructorcourseapplication.html"
+                  >View Application</a
+                >
+              </td>
+              <td><a href="admin_participant.html">View Details</a></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Kevin Young</td>
+              <td>10/11/2024</td>
+              <td>
+                <a href="admin_instructorcourseapplication.html"
+                  >View Application</a
+                >
+              </td>
+              <td><a href="admin_participant.html">View Details</a></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Samuel Roberts</td>
+              <td>11/11/2024</td>
+              <td>
+                <a href="admin_instructorcourseapplication.html"
+                  >View Application</a
+                >
+              </td>
+              <td><a href="admin_participant.html">View Details</a></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Lisa Smith</td>
+              <td>12/11/2024</td>
+              <td>
+                <a href="admin_instructorcourseapplication.html"
+                  >View Application</a
+                >
+              </td>
+              <td><a href="admin_participant.html">View Details</a></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Samuel Thomas</td>
+              <td>14/11/2024</td>
+              <td>
+                <a href="admin_instructorcourseapplication.html"
+                  >View Application</a
+                >
+              </td>
+              <td><a href="admin_participant.html">View Details</a></td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Rachel Walker</td>
+              <td>15/03/2024</td>
+              <td>
+                <a href="admin_instructorcourseapplication.html"
+                  >View Application</a
+                >
+              </td>
+              <td><a href="admin_participant.html">View Details</a></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Kimberly Rodriguez</td>
+              <td>17/11/2024</td>
+              <td>
+                <a href="admin_instructorcourseapplication.html"
+                  >View Application</a
+                >
+              </td>
+              <td><a href="admin_participant.html">View Details</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- -------------------------End of Table Area------------------------- -->
+    </main>
+    <!-- --------------------------------------------------End of Main Area-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Footer-------------------------------------------------- -->
+    <footer class="container-fluid d-flex">
+      <p>&copy; 2023 - EduReview360 - All Rights Reserved</p>
+    </footer>
+    <!-- --------------------------------------------------End of Footer-------------------------------------------------- -->
+
+    <!-- Bootrap Script -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+    <script src="../js/datatables.js"></script>
+  </body>
+</html>

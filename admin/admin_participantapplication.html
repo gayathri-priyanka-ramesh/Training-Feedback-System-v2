@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduReview360</title>
+    <!-- Boostrap Style -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- --------------------------------------------------Header-------------------------------------------------- -->
+
+    <header class="container-fluid d-flex justify-content-between">
+      <div class="brand d-flex">
+        <div class="logo">
+          <a href="admin_home.html"
+            ><img src="../img/logo.png" alt="logo" class="img-fluid"
+          /></a>
+        </div>
+        <div class="brand-name">
+          <p>EduReview360</p>
+        </div>
+      </div>
+      <div class="headprofile d-flex">
+        <img src="../img/Admin.jpg" alt="admin-profile" class="img-fluid" />
+      </div>
+    </header>
+    <!-- --------------------------------------------------End of Header-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Breadcrumps-------------------------------------------------- -->
+    <nav class="breadcrump-pane container-fluid">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="admin_home.html#participants-list">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="admin_participant.html#applications">Sameul Roberts</a>
+        </li>
+        <li class="breadcrumb-item active current-page">
+          Responsive Web Design
+        </li>
+      </ol>
+    </nav>
+    <!-- --------------------------------------------------End of Breadcrumps-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Main Area-------------------------------------------------- -->
+    <main>
+      <h1>Responsive Web Design</h1>
+      <div class="course-application d-flex">
+        <!-- -------------------------Hero Section------------------------- -->
+        <div class="new-course-area application-course-area">
+          <div class="item d-flex container-fluid">
+            <!-- -------------------------Info Area------------------------- -->
+            <div class="item-info d-flex">
+              <!-- -------------------------Data Area------------------------- -->
+              <div class="course-info">
+                <p class="card-text"><b>Instructor:</b> Michael Garcia</p>
+                <p><b>Course Status:</b> 10 Seats Vacant</p>
+                <p><b>Participant Applied:</b> Sameul Roberts</p>
+                <p><b>Ongoing Courses:</b> 8</p>
+                <p><b>Date Applied:</b> 01/11/2024</p>
+              </div>
+            </div>
+            <!-- -------------------------Info Image------------------------- -->
+            <div class="item-img">
+              <img
+                src="../img/ResponsiveWebDesign.jpg"
+                alt="course"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------End of Hero Section------------------------- -->
+
+        <!-- -------------------------Form Area------------------------- -->
+        <div class="application-form form">
+          <form action="" class="feedback-form" method="post" id="approvalForm">
+            <fieldset>
+              <legend class="float-none w-auto p-2 mx-1">
+                Course Approval
+              </legend>
+              <!-- -------------------------Application Status------------------------- -->
+              <label for="application-comment" class="text-label form-label"
+                >Choose the Application status
+                <span class="mandate">*</span></label
+              >
+              <div class="form-check">
+                <input
+                  class="checkbox-input"
+                  type="radio"
+                  name="application-statement"
+                  id="approved"
+                  value="approved"
+                />
+                <label class="checkbox-label form-check-label" for="approved"
+                  >Approve</label
+                >
+              </div>
+              <div class="form-check">
+                <input
+                  class="checkbox-input"
+                  type="radio"
+                  name="application-statement"
+                  id="disapproved"
+                  value="disapproved"
+                />
+                <label class="checkbox-label form-check-label" for="disapproved"
+                  >Disapprove</label
+                >
+              </div>
+              <div id="approvalWarning" class="validation"></div>
+              <!-- -------------------------Comment------------------------- -->
+              <label
+                for="application-comment"
+                class="text-label text-label-after-checkbox form-label"
+                >Comment <span class="mandate">*</span></label
+              >
+              <textarea
+                class="form-control mb-0"
+                name="application-comment"
+                id="application-comment"
+                rows="5"
+              ></textarea>
+              <div id="commentWarning" class="validation mb-1"></div>
+            </fieldset>
+            <!-- -------------------------Form Submit------------------------- -->
+            <div class="button-group d-flex">
+              <div class="button">
+                <button type="reset" class="btn nav-item">Reset</button>
+              </div>
+              <div class="button">
+                <button type="button" class="btn nav-item" id="approvalSubmit">
+                  Submit
+                </button>
+              </div>
+            </div>
+            <!-- -------------------------Modal------------------------- -->
+            <div id="submit-result" class="modal" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <p id="modalMessage"></p>
+                    <div class="button-group d-flex">
+                      <div class="button">
+                        <button
+                          type="button"
+                          class="btn nav-item"
+                          id="modalOkBtn"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- -------------------------End of Form Area------------------------- -->
+      </div>
+    </main>
+    <!-- --------------------------------------------------End of Main Area-------------------------------------------------- -->
+
+    <!-- --------------------------------------------------Footer-------------------------------------------------- -->
+    <footer class="container-fluid d-flex">
+      <p>&copy; 2023 - EduReview360 - All Rights Reserved</p>
+    </footer>
+    <!-- --------------------------------------------------End of Footer-------------------------------------------------- -->
+
+    <!-- Bootrap Script -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- jQuery Script -->
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../js/admin_participantapplication.js"></script>
+  </body>
+</html>
