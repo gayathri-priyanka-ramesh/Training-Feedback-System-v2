@@ -1,4 +1,4 @@
-Index (Login Credentials)
+Index
 Participant (9)
     Index
     OngoingCourseContinue
@@ -18,7 +18,7 @@ Instructor (7)
     UpcomingCourseSeatsFilled
     UpcomingCourseVacant
 Admin (18)
-    Index (Login Credentials)
+    Index
     Home
     Course
         CourseApplication
