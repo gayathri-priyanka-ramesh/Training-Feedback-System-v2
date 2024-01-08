@@ -3,7 +3,7 @@ Participant (9)
     Index
     OngoingCourseContinue
         Course
-        FeedbackSubmit (No. of Answered Questions)
+        FeedbackSubmit
         FeedbackView
             Report
     OngoingCourseStart
@@ -24,7 +24,7 @@ Admin (18)
         CourseApplication (Approval Status)
         CourseFeedback
         CreateFeedback
-            EnterQuestions
+            EditFeedback
             FeedbackFormPreview
     Instructor
         InstructorOngoingCourse
