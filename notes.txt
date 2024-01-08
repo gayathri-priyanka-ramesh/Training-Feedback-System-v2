@@ -21,7 +21,7 @@ Admin (18)
     Index (Login Credentials)
     Home
     Course
-        CourseApplication (Approval Status)
+        CourseApplication
         CourseFeedback
         CreateFeedback
             EditFeedback
@@ -30,10 +30,10 @@ Admin (18)
         InstructorOngoingCourse
             InstructorCourseFeedback
         InstructorUpcomingCourse
-        InstructorCourseApplication (Approval Status)
+        InstructorCourseApplication
     Participant
         ParticipantEnrolledCourse
-        ParticipantApplication (Approval Status)
+        ParticipantApplication
         ParticipantCourseFeedback
     Report
 
