@@ -15,12 +15,19 @@ Instructors can view information about their training sessions, access participa
 ### 3. Administrator Module
 Administrators can create and customize feedback surveys, manage participant data, monitor attendance and feedback submission, analyze feedback data, track instructor evaluations, and identify feedback trends and insights for program improvement.
 
-## Tech at Play
-### Phase 2
-#### Refactoring
-Bootstrap integration for enhanced responsiveness.
-#### Technology
-JavaScript (ES6) and jQuery for dynamic interactivity and form validation, ensuring 95% accuracy.
+## Phase 1
+### Tech at Play
+ - HTML5
+ - CSS3 with SASS
+### Noteworthy traits
+ - Responsiveness with pure CSS Media Queries, where all user modules are developed to cater all screen sizes
+## Phase 2
+### Tech at Play
+ - Bootstrap
+ - JavaScript (ES6) and jQuery
+### Noteworthy traits
+ - Code Refactor using Bootstrap for enhanced Responsiveness
+ - Simplified DOM Manipulation and Event Handling using jQuery
 
 ##### Note: Phase 3 is underway.
 
